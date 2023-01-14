@@ -1,0 +1,144 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* common styles */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.primary-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+/* header styles */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.container {
+    margin: 0 240px;
+    margin-bottom: 85px;
+}
+
+/* Navbar Styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4em;
+    margin-bottom: 102px;
+}
+
+.nav-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4em;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* banner styles */
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 64px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.banner-img {
+    width: 100%;
+    background-position: center;
+    padding-bottom: 45px;
+}
+
+/* Main styles */
+
+/* feature styles */
+.features {
+    display: flex;
+    margin: 0 301px;
+    gap: 73px;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    width: 100%;
+}
+
+.feature-title {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.ftc-1 {
+    color: #727272;
+    font-weight: 500;
+}
+
+.ftc-2 {
+    color: #131313;
+}
+
+/* enjoy-styles */
+.enjoy-container {
+    margin: 0 240px;
+}
+
+.enjoy-box-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.enjoy-box-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
