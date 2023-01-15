@@ -280,6 +280,10 @@ body {
     align-items: center;
 }
 
+.sponsor-logos img {
+    width: 100%;
+}
+
 /* footer-styles */
 .footer {
     margin: 0 240px 216px;
@@ -290,4 +294,101 @@ body {
 .footer-text {
     color: #424242;
     text-align: center;
+}
+
+
+
+/*------------------------------------------------------------------------
+                                  Media Quaries 
+--------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 576px) {
+
+    .hide {
+        display: none;
+    }
+
+    /* common Styles */
+    * {
+        margin: 0;
+        overflow-x: hidden;
+        overscroll-behavior-x: none;
+    }
+
+    .primary-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .discription {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .btn-primary {
+        border-radius: 8px;
+        border: none;
+        width: 180px;
+        height: 64px;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+
+    .container {
+        margin: 0;
+    }
+
+    /* Navbar Styles */
+    .nav {
+        flex-direction: column;
+    }
+
+
+    /*project styles */
+    .project-container {
+        margin: 0 15px;
+        margin-bottom: 100px;
+    }
+
+    .project-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .project-images {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Sponsor Styles */
+    .Sponsor-container {
+        margin: 0 20px;
+        margin-bottom: 60px;
+    }
+
+    .Sponsor-text {
+        text-align: center;
+    }
+
+    .sponsor-discription {
+        margin-bottom: 40px;
+    }
+
+    .Sponsor-logos {
+        flex-direction: column;
+        align-content: center;
+        gap: 30px;
+    }
+
+
+    /* footer style */
+    .footer {
+        margin: 0 15px;
+        margin: 15px;
+        padding: 25px;
+    }
+
 }
