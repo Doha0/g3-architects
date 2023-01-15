@@ -209,6 +209,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .somefact-icon {
@@ -228,6 +229,13 @@ body {
     font-weight: 600;
     font-size: 20px;
     color: #727272;
+}
+
+.somefact-box:hover {
+    transform: scale(.8);
+    background-color: rgba(255, 144, 14, 0.1);
+    border: none;
+    transition: transform .3s ease-in-out;
 }
 
 /*project styles */
@@ -280,5 +288,6 @@ body {
 }
 
 .footer-text {
+    color: #424242;
     text-align: center;
 }
